@@ -3,6 +3,8 @@
 # You'll have to implement it from scratch.
 
 require 'sinatra'
+
 get '/' do
+  @crm_app_name = "Bitmaker's CRM"
   erb :index
 end
