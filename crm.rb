@@ -5,7 +5,7 @@ require_relative 'contact'
 require 'sinatra'
 
 #fake data
-#Contact.create('Jim', 'Brock', 'jim@gmail.com', 'Booty Commander')
+Contact.create('Jim', 'Brock', 'jim@gmail.com', 'Booty Commander')
 #Contact.create('Anja', 'Gusev', 'anja@gmail.com', 'Booty Queen')
 #Contact.create('Mark', 'Zuckerberg', 'mark@gmail.com', 'Booty Private')
 

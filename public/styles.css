@@ -34,12 +34,18 @@ li {
   margin: 0 160px;
 }
 
-.num-contacts {
+h2{
   background-color: #f18973;
+  margin: 10px 150px;
+  padding: 9px;
+  font-size: 1em;
 }
 
-.contacts {
+li.details{
   background-color: #00e6b8;
+  font-weight: bold;
+  padding: 22px 19px;
+  margin: 19px 0px;
 }
 
 
