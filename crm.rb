@@ -10,7 +10,7 @@ require 'sinatra'
 #Contact.create('Mark', 'Zuckerberg', 'mark@gmail.com', 'Booty Private')
 
 get '/' do
-  @crm_app_name = "Bitmaker's CRM"
+  @crm_app_name = "uContact"
   erb :index
 end
 

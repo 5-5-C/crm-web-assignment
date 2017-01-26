@@ -1,0 +1,53 @@
+header {
+  background-color: #322C2B;
+  color:white;
+  text-align: center;
+  weight: bold;
+  margin:0 150px;
+  padding: 16px;
+}
+
+.nav {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin:0 150px;
+  padding: 0;
+  margin-top: -7px;
+  weight:bold;
+}
+
+li {
+  list-style-type: none;
+  display: block;
+  margin:10px 0;
+  background-color: 	#d1d1e0;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: -8px;
+  padding: 12px;
+}
+
+.container {
+  margin: 0 160px;
+}
+
+.num-contacts {
+  background-color: #f18973;
+}
+
+.contacts {
+  background-color: #00e6b8;
+}
+
+
+.bottom-header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0 150px;
+  font-size: 15px;
+  padding: 13px;
+}

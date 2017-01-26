@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+
+    <header>
+      <h1><%= @crm_app_name %></h1>
+    </header>
+      <div class="nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/contacts/new">Add a Contact</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="bottom-header">Bitmaker 2016</h2>
+      </div>
+
+      <%= yield %>
+
+  </body>
+</html>
