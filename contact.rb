@@ -84,7 +84,9 @@ class Contact
     end
 
 
-    #@@contacts.find { |contact| contact if contact.send(attr_name) == attr_value} first try
+
+    #@@contacts.find { |contact| contact if contact.send(attr_name) == attr_value} <-
+    #@@contacts.find { |contact|  if contact.send(attr_name) == attr_value  return contact } first try
 
   end
 
